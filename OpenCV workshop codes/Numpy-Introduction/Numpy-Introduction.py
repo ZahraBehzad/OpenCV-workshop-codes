@@ -54,3 +54,13 @@ A = array([[1, 1], [0, 1]])
 B = array([[2, 0], [3, 4]])
 print(A * B)
 print(dot(A, B))
+
+a = ones((2, 3), dtype=float)
+b = random.random((2, 3))
+a *= 3
+print(a)
+b += a
+print(b)
+a += b
+print(a)
+print(b)
