@@ -1,9 +1,20 @@
-# blinking LED using RaspberryPi 💡
-This Python code controls LED (connected to physical pin 18) to blink at 1-second intervals using a **Raspberry Pi 4 Model B**.   🎇  
-The project was developed for **IoT** (Internet of Things) class.      ✨  
-<br>
-> [!NOTE]
-> ⚠️The project uses `RPi.GPIO` package. To install this package run the code below in cmd :
->    ```bash
->     pip install RPi.GPIO
->
+# Introduction to NumPy Basics
+
+A beginner-friendly tutorial demonstrating fundamental NumPy operations, array creation, and manipulation. Familiarity with this Numpy basics is essential for working with images.
+
+
+## Prerequisites
+- Python 3.x
+- NumPy library
+
+## NumPy Installation
+   ```bash
+   pip install numpy
+```
+
+## Key Concepts Covered  
+- **Array Creation**: Using `array()`, `arange()`, `linspace()`.  
+- **Array Attributes**: `shape`, `ndim`, `dtype`, `itemsize`, `size`.  
+- **Special Functions**: `zeros()`, `ones()`, `empty()`.  
+- **Reshaping**: `reshape()` to change array dimensions.  
+- **Data Types**: Specifying `dtype` (e.g., `int16`, `complex`).  
