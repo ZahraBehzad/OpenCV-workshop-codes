@@ -84,3 +84,11 @@ print(b)
 print(b.sum(axis= 0))
 print(b.min(axis= 1))
 print(b.cumsum(axis= 1))
+
+a = arange(10)**3
+print(a)
+print(a[2])
+print(a[2:5])
+print(a[:6:2])
+print(a[::-1])
+
