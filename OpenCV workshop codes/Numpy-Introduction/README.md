@@ -1,6 +1,6 @@
 # Introduction to NumPy Basics
 
-A beginner-friendly tutorial demonstrating fundamental NumPy operations, array creation, and manipulation. Familiarity with these Numpy basics is essential for working with images.
+A beginner-friendly tutorial demonstrating fundamental NumPy operations, array creation, and manipulation. Familiarity with this Numpy basics is essential for working with images.
 
 
 ## Prerequisites
