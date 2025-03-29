@@ -64,3 +64,11 @@ print(b)
 a += b
 print(a)
 print(b)
+
+B = arange(3)
+print(B)
+print(exp(B))
+print(sqrt(B))
+C = array([2., -1., 4.])
+print(C)
+print(add(B, C))
