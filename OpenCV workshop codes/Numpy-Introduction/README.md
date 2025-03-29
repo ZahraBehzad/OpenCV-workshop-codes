@@ -1,8 +1,6 @@
 # Introduction to NumPy Basics
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-This repository provides a beginner-friendly introduction to NumPy, a fundamental library for numerical computing in Python. The code demonstrates basic array creation, manipulation, attributes, and operations using NumPy.
+A beginner-friendly tutorial demonstrating fundamental NumPy operations, array creation, and manipulation. Familiarity with these Numpy basics is essential for working with images.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
