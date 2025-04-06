@@ -174,3 +174,14 @@ b = array([9, 8])
 x = linalg.solve(a, b)
 print(x)
 
+#The Matrix Class
+A = matrix('1.0 2.0; 3.0 4.0')
+print(A)
+print(A.T) #transpose
+
+X = matrix('5.0 7.0')
+Y = X.T
+print(Y)
+print(A*Y)
+print(A.I) #inverse
+
