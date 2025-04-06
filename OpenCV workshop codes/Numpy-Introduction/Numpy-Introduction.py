@@ -185,3 +185,21 @@ print(Y)
 print(A*Y)
 print(A.I) #inverse
 
+A = arange(12)
+print(A)
+A.shape = (3, 4)
+M = matrix(A.copy())
+print(type(A))
+print(type(M))
+print(A)
+print(M)
+
+a = arange(30)
+a.shape = 2,-1,3
+print(a.shape)
+print(a)
+
+x = arange(0, 10, 2)
+y = arange(5)
+m  = vstack([x, y])
+xy = hstack([x, y])
