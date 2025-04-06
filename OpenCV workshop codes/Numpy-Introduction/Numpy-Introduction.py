@@ -85,6 +85,7 @@ print(b.sum(axis= 0))
 print(b.min(axis= 1))
 print(b.cumsum(axis= 1))
 
+#Indexing, Slicing, Iterating & Reshaping
 a = arange(10)**3
 print(a)
 print(a[2])
@@ -100,3 +101,43 @@ print(b[2, 3])
 print(b[0:5, 1])
 print(b[:, 1])
 print(b[1:3, :])
+
+c = array([[[0, 1, 2],
+            [10, 12, 13]],
+            
+            [[100, 101, 102],
+             [110, 112, 113]]])
+print(c.shape)
+print(c[1, ...])
+print(c[..., 2])
+
+for row in b:
+    print(row)
+
+for element in b.flat:
+    print(element)
+
+a = floor(10 * random.random((3, 4)))
+print(a)
+print(a.shape)
+print(a.ravel())
+a.shape = (6, 2)
+print(a.transpose())
+print(a)
+a.resize((2, 6))
+print(a)
+print(a.reshape(3, -1))
+
+#Stacking & Splitting arrays
+a = floor(10 * random.random((2, 2)))
+print(a)
+b = floor(10 * random.random((2, 2)))
+print(b)
+print(vstack((a, b)))
+print(hstack((a, b)))
+
+a = floor(10 * random.random((2, 12)))
+print(a)
+print(hsplit(a, 3))
+
+#Copy & views
