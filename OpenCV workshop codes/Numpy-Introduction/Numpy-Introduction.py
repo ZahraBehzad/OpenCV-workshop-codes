@@ -141,3 +141,24 @@ print(a)
 print(hsplit(a, 3))
 
 #Copy & views
+c = a.view()
+print(c is a)
+print(c.base is a)
+print(c.flags.owndata)
+c[0, 4] = 1234
+print(a)
+
+s = a[ : , 1:3]
+s[:] = 10
+print(a)
+
+d = a.copy()
+print(d is a)
+print(d.base is a)
+d[0, 0] = 9999
+print(a)
+
+#Numpy methods
+a = array([[1.0, 2.0], [3.0, 4.0]])
+print(a)
+print(a.transpose())
