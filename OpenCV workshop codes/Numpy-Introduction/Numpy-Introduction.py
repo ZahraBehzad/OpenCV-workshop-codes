@@ -162,3 +162,15 @@ print(a)
 a = array([[1.0, 2.0], [3.0, 4.0]])
 print(a)
 print(a.transpose())
+
+u = eye(2)
+print(u)
+
+j = array([[0.0, -1.0], [1.0, 0.0]])
+print(dot(j, j))
+
+a = array([[3, 1], [1, 2]])
+b = array([9, 8])
+x = linalg.solve(a, b)
+print(x)
+
