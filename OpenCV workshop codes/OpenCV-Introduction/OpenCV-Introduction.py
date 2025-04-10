@@ -22,6 +22,16 @@ cv2.imshow('image', image_unchanged)
 cv2.waitKey(0)
 cv2.destroyWindow()
 
-#saving the image
+# Saving the image
 image_gray = cv2.imread("flower.jpg", cv2.IMREAD_GRAYSCALE)
 cv2.imwrite('gray.jpg', image_gray)
+
+# Doing different functions based on the key that user presses
+img = cv2.imread("flower.jpg", 0)
+cv2.imshow('image', img)
+k = cv2.waitKey(0)
+if k==27:
+    cv2.destroyAllWindows()
+elif k==ord('s'):
+    cv2.imwrite('savedImage.jpg', img)
+    cv2.destroyAllWindows()
