@@ -1,4 +1,3 @@
-import numpy as np
 from matplotlib import pyplot as plt
 import cv2
 
@@ -44,5 +43,5 @@ elif k==ord('s'):
 # Show image using matplotlib
 img = cv2.imread("OpenCV workshop codes/OpenCV-Introduction/flower.jpg", 0)
 plt.imshow(img, cmap='gray', interpolation='bicubic')
-plt.xticks([]), plt.yticks([])
+plt.xticks([]), plt.yticks([]) # to hide tick values on X and Y axis
 plt.show()
