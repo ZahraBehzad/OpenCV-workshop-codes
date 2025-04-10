@@ -1,4 +1,5 @@
 import numpy as np
+from matplotlib import pyplot as plt
 import cv2
 
 # Load an image 
@@ -35,3 +36,9 @@ if k==27:
 elif k==ord('s'):
     cv2.imwrite('savedImage.jpg', img)
     cv2.destroyAllWindows()
+
+# Show image using matplotlib
+img = cv2.imread("flower.jpg", 0)
+plt.imshow(img, cmap='gray', interpolation='bicubic')
+plt.xticks([]), plt.yticks([])
+plt.show()
